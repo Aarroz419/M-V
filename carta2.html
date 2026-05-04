@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¿Por qué?</title>
+  <style>
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #B0E0E6, #ADD8E6, #E0F7FA);
+      text-align: center;
+      color: #333;
+    }
+
+    h1 {
+      margin: 50px 0 20px 0;
+      font-size: 3em;
+      color: #0c3175;
+      text-shadow: 2px 2px 4px #ffffff;
+    }
+
+    .contenedor {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 50px;
+      margin: 50px auto;
+      width: 90%;
+    }
+
+    .lado {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .lado img {
+      width: 100%;
+      max-width: 280px;
+      height: 200px;
+      border-radius: 20px;
+      box-shadow: 0 6px 15px rgba(0, 100, 150, 0.3);
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .lado img:hover {
+      transform: scale(1.05);
+    }
+
+    .carta {
+      flex: 2;
+      background: white;
+      border-radius: 20px;
+      padding: 50px;
+      box-shadow: 0 6px 20px rgba(0, 100, 150, 0.2);
+    }
+
+    p {
+      font-size: 1.2em;
+      margin: 25px 0;
+      line-height: 1.9em;
+      text-align: justify;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #cce7f0;
+      margin: 40px 0;
+    }
+
+    .botones-finales {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 60px 150px;
+    }
+
+    .boton {
+      padding: 14px 35px;
+      background: linear-gradient(45deg, #4da6ff, #80d4ff, #4da6ff);
+      color: white;
+      border-radius: 25px;
+      font-size: 1.2em;
+      text-decoration: none;
+      box-shadow: 0 0 15px rgba(77, 166, 255, 0.6);
+      transition: all 0.4s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .boton::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(120deg, transparent, rgba(255,255,255,0.7), transparent);
+      transition: all 0.6s ease;
+    }
+
+    .boton:hover::before {
+      left: 100%;
+    }
+
+    .boton:hover {
+      transform: scale(1.08) translateY(-3px);
+      box-shadow: 0 0 20px rgba(77, 166, 255, 0.8);
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>¿POR QUÉ?</h1>
+
+  <div class="contenedor">
+
+    <div class="lado">
+      <img src="cine.jpeg" alt="Imagen izquierda">
+      <img src="be.jpeg" alt="Imagen">
+      <img src="cancha.jpeg" alt="Imagen">
+      <img src="nig.jpeg" alt="Imagen">
+      <img src="dib.jpeg" alt="Imagen">
+    </div>
+
+    <div class="carta">
+    <p>Extraño platicar contigo, extraño tus chistes de Apopa, que me cuentes de cosas insignificantes, que me sonrías y hagas vocecitas pequeñas; extraño la manera en que mi cabeza replicaba tu voz dentro de mí para leer lo que me decías; me hacen falta tus ojos, tus cabellos y rulos, tu piel suave canela, como el cobre, el cobre que condujo electricidad dentro de mí; tu olor dulce que a veces aún percibo y volteo con miedo e incredulidad pensando que eres tú.</p> <p>Odio verte de lejos, odio verte sentada al otro lado porque realmente quisiera que estuvieras sentada conmigo, que me piques las costillas y me hagas dibujos en los cuadernos, y no verte, no verte ahí en silencio, silencio que alguna vez habitamos como las hiedras entre las rosas.</p> <p>Quisiera volver a verte por un microinstante, cerrar los ojos antes de un beso, jugar con tu pelo y que me veas a los ojos con la ternura que alguna vez me tuviste... Extraño todo eso, cada parte de eso, cada parte de ti, de tu carne, de tu pecho y de tu corazón.</p> <p>Coordinar una salida o un bus solamente para vernos un rato más... acompañarte a tu casa o irme hasta tarde sin importar los regaños que realmente ya no eran castigos si estabas conmigo... vivir en tus faenas, reírme y escaparme contigo, con tal de verte una hora más o quizás menos.</p> <p>Pero he sido cruel, he sido malo, he dañado y dejé de ser aquel que alguna vez creíste que fui; a medida que pasó el tiempo nos fuimos mutuamente quebrando y pido perdón por no quedarme en esos instantes a tu lado, por no acompañarte cuando más me necesitabas y ser estúpido cuando no estaba.</p> <p>Después de todo, tú me conoces tanto como yo mismo, ¿para qué alejarte si eres el polo opuesto de mi mundo?</p> <hr> <p>Te amo y te amo Katherine Valeria De León Serpas.</p> <p>Atentamente: Aaron Marcelo Escobar Azucena</p> </div>
+
+    <div class="lado">
+      <img src="lov.jpeg" alt="Imagen derecha">
+      <img src="so.jpeg" alt="Imagen">
+      <img src="piojito.jpeg" alt="Imagen">
+      <img src="waos.jpeg" alt="Imagen">
+      <img src="metro.jpeg" alt="Imagen">
+    </div>
+
+  </div>
+
+  <div class="botones-finales">
+    <a href="poemas.html" target="_blank" class="boton">Poemas</a>
+    <a href="canciones.html" target="_blank" class="boton">Canciones</a>
+  </div>
+
+</body>
+</html>

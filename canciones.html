@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canciones</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Georgia", serif;
+      background-image: url("fondo.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+      color: #2f4f6f;
+    }
+
+    h1 {
+      margin-top: 30px;
+      color: #0c3175;
+      text-shadow: 2px 2px 4px rgba(255,255,255,0.8);
+      font-size: 3em;
+    }
+
+    .galeria {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 40px;
+    }
+
+    .cancion {
+      background-color: rgba(255, 255, 255, 0.85);
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,100,150,0.3);
+      padding: 15px;
+      width: 250px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .cancion:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(0,100,150,0.4);
+    }
+
+    .cancion img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .cancion img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(100, 180, 255, 0.6);
+    }
+
+    .cancion p {
+      margin-top: 10px;
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+
+    .botones {
+      margin-top: 40px;
+      margin-bottom: 50px;
+    }
+
+    .botones a {
+      display: inline-block;
+      text-decoration: none;
+      background: linear-gradient(45deg, #4da6ff, #80d4ff);
+      color: white;
+      padding: 12px 30px;
+      border-radius: 30px;
+      margin: 0 15px;
+      font-size: 1.2em;
+      transition: all 0.3s;
+      box-shadow: 0 4px 10px rgba(0,100,150,0.3);
+    }
+
+    .botones a:hover {
+      transform: scale(1.08);
+      box-shadow: 0 0 15px rgba(100,180,255,0.7);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Canciones que te dedico</h1>
+
+  <div class="galeria">
+
+    <div class="cancion">
+      <a href="https://www.youtube.com/watch?v=5tpQaCAq6Qc" target="_blank">
+        <img src="both.jpg" alt="Love Machine">
+      </a>
+      <p>Love Machine</p>
+      <p>TV Girl</p>
+    </div>
+
+    <div class="cancion">
+      <a href="https://www.youtube.com/watch?v=W3zbkhMVSU4" target="_blank">
+        <img src="enjambre.jpg" alt="Vínculo">
+      </a>
+      <p>Tercer tipo</p>
+      <p>Enjambre</p>
+    </div>
+
+    <div class="cancion">
+      <a href="https://www.youtube.com/watch?v=FM7ALFsOH4g" target="_blank">
+        <img src="arcoiris.jpg" alt="All I Need">
+      </a>
+      <p>All I Need</p>
+      <p>Radiohead</p>
+    </div>
+
+    <div class="cancion">
+      <a href="https://www.youtube.com/watch?v=_R3B2Xr8kwQ" target="_blank">
+        <img src="neo.jpg" alt="Neo Roneo">
+      </a>
+      <p>Neo Roneo</p>
+      <p>Latin Mafia</p>
+    </div>
+
+    <div class="cancion">
+      <a href="https://www.youtube.com/watch?v=LltlG9sU6zg" target="_blank">
+        <img src="caifanes.jpg" alt="La célula que explota">
+      </a>
+      <p>La célula que explota</p>
+      <p>Caifanes</p>
+    </div>
+
+    <div class="cancion">
+      <a href="https://www.youtube.com/watch?v=gm-Y9idMMQ4" target="_blank">
+        <img src="cienti.jpg" alt="The Scientist">
+      </a>
+      <p>The Scientist</p>
+      <p>Coldplay</p>
+    </div>
+
+    <div class="cancion">
+      <a href="https://www.youtube.com/watch?v=GXfCjf7_QrQ" target="_blank">
+        <img src="viento.jpg" alt="Será por eso">
+      </a>
+      <p>Será por eso</p>
+      <p>Caifanes</p>
+    </div>
+
+  </div>
+
+  <div class="botones">
+    <a href="poemas.html">Poemas</a>
+    <a href="love.html">.....</a>
+  </div>
+
+</body>
+</html>
