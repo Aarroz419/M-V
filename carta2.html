@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>¿Por qué?</title>
-  <style>
 
+  <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
@@ -25,7 +25,7 @@
       display: flex;
       justify-content: center;
       align-items: flex-start;
-      gap: 50px;
+      gap: 70px; /* MÁS ESPACIO */
       margin: 50px auto;
       width: 90%;
     }
@@ -35,13 +35,13 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 30px;
+      gap: 40px; /* MÁS SEPARACIÓN ENTRE IMÁGENES */
     }
 
     .lado img {
       width: 100%;
-      max-width: 280px;
-      height: 200px;
+      max-width: 380px; /* MÁS GRANDES */
+      height: 260px;    /* MÁS ALTAS */
       border-radius: 20px;
       box-shadow: 0 6px 15px rgba(0, 100, 150, 0.3);
       object-fit: cover;
@@ -62,15 +62,19 @@
 
     p {
       font-size: 1.2em;
-      margin: 25px 0;
+      margin: 15px 0;
       line-height: 1.9em;
       text-align: justify;
     }
 
-    hr {
-      border: none;
-      border-top: 1px solid #cce7f0;
-      margin: 40px 0;
+    .bloque {
+      margin-bottom: 25px;
+    }
+
+    .final {
+      margin-top: 40px;
+      text-align: center;
+      font-weight: bold;
     }
 
     .botones-finales {
@@ -89,63 +93,108 @@
       text-decoration: none;
       box-shadow: 0 0 15px rgba(77, 166, 255, 0.6);
       transition: all 0.4s ease;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .boton::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: -100%;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(120deg, transparent, rgba(255,255,255,0.7), transparent);
-      transition: all 0.6s ease;
-    }
-
-    .boton:hover::before {
-      left: 100%;
     }
 
     .boton:hover {
-      transform: scale(1.08) translateY(-3px);
-      box-shadow: 0 0 20px rgba(77, 166, 255, 0.8);
+      transform: scale(1.08);
     }
-
   </style>
 </head>
+
 <body>
 
-  <h1>¿POR QUÉ?</h1>
+<h1>¿POR QUÉ?</h1>
 
-  <div class="contenedor">
+<div class="contenedor">
 
-    <div class="lado">
-      <img src="cine.jpeg" alt="Imagen izquierda">
-      <img src="be.jpeg" alt="Imagen">
-      <img src="cancha.jpeg" alt="Imagen">
-      <img src="nig.jpeg" alt="Imagen">
-      <img src="dib.jpeg" alt="Imagen">
+  <!-- IZQUIERDA -->
+  <div class="lado">
+    <img src="cine.jpeg">
+    <img src="be.jpeg">
+    <img src="cancha.jpeg">
+    <img src="nig.jpeg">
+    <img src="dib.jpeg">
+     <img src="xd.jpeg">
+  </div>
+
+  <!-- CARTA -->
+  <div class="carta">
+
+    <div class="bloque">
+      <p>Extraño platicar contigo, extraño tus chistes de Apopa, que me cuentes de cosas insignificantes, que me sonrías y hagas vocecitas pequeñas; extraño la manera en que mi cabeza replicaba tu voz dentro de mí para leer lo que me decías; me hacen falta tus ojos, tus cabellos y rulos, tu piel suave canela, como el cobre, el cobre que condujo electricidad dentro de mí; tu olor dulce que a veces aún percibo y volteo con miedo e incredulidad pensando que eres tú.</p>
     </div>
 
-    <div class="carta">
-    <p>Extraño platicar contigo, extraño tus chistes de Apopa, que me cuentes de cosas insignificantes, que me sonrías y hagas vocecitas pequeñas; extraño la manera en que mi cabeza replicaba tu voz dentro de mí para leer lo que me decías; me hacen falta tus ojos, tus cabellos y rulos, tu piel suave canela, como el cobre, el cobre que condujo electricidad dentro de mí; tu olor dulce que a veces aún percibo y volteo con miedo e incredulidad pensando que eres tú.</p> <p>Odio verte de lejos, odio verte sentada al otro lado porque realmente quisiera que estuvieras sentada conmigo, que me piques las costillas y me hagas dibujos en los cuadernos, y no verte, no verte ahí en silencio, silencio que alguna vez habitamos como las hiedras entre las rosas.</p> <p>Quisiera volver a verte por un microinstante, cerrar los ojos antes de un beso, jugar con tu pelo y que me veas a los ojos con la ternura que alguna vez me tuviste... Extraño todo eso, cada parte de eso, cada parte de ti, de tu carne, de tu pecho y de tu corazón.</p> <p>Coordinar una salida o un bus solamente para vernos un rato más... acompañarte a tu casa o irme hasta tarde sin importar los regaños que realmente ya no eran castigos si estabas conmigo... vivir en tus faenas, reírme y escaparme contigo, con tal de verte una hora más o quizás menos.</p> <p>Pero he sido cruel, he sido malo, he dañado y dejé de ser aquel que alguna vez creíste que fui; a medida que pasó el tiempo nos fuimos mutuamente quebrando y pido perdón por no quedarme en esos instantes a tu lado, por no acompañarte cuando más me necesitabas y ser estúpido cuando no estaba.</p> <p>Después de todo, tú me conoces tanto como yo mismo, ¿para qué alejarte si eres el polo opuesto de mi mundo?</p> <hr> <p>Te amo y te amo Katherine Valeria De León Serpas.</p> <p>Atentamente: Aaron Marcelo Escobar Azucena</p> </div>
+    <div class="bloque">
+      <p>Odio verte de lejos, odio verte sentada al otro lado porque realmente quisiera que estuvieras sentada conmigo, que me piques las costillas y me hagas dibujos en los cuadernos, y no verte, no verte ahí en silencio, silencio que alguna vez habitamos como las hiedras entre las rosas.</p>
+    </div>
 
-    <div class="lado">
-      <img src="lov.jpeg" alt="Imagen derecha">
-      <img src="so.jpeg" alt="Imagen">
-      <img src="piojito.jpeg" alt="Imagen">
-      <img src="waos.jpeg" alt="Imagen">
-      <img src="metro.jpeg" alt="Imagen">
+    <div class="bloque">
+      <p>Quisiera volver a verte por un microinstante, cerrar los ojos antes de un beso, jugar con tu pelo y que me veas a los ojos con la ternura que alguna vez me tuviste...</p>
+      <p>Extraño todo eso, cada parte de eso, cada parte de ti, de tu carne, de tu pecho y de tu corazón.</p>
+    </div>
+
+    <div class="bloque">
+      <p>Coordinar una salida o un bus solamente para vernos un rato más... acompañarte a tu casa o irme hasta tarde sin importar los regaños que realmente ya no eran castigos si estabas conmigo... vivir en tus faenas, reírme y escaparme contigo, con tal de verte una hora más o quizás menos.</p>
+    </div>
+
+    <div class="bloque">
+      <p>Pero he sido cruel, he sido malo, he dañado y dejé de ser aquel que alguna vez creíste que fui; a medida que pasó el tiempo nos fuimos mutuamente quebrando y pido perdón por no quedarme en esos instantes a tu lado, por no acompañarte cuando más me necesitabas y ser estúpido cuando no estaba; te pido perdón por haberte causado dolor, preocupación, sufrimiento, ser alguien cruel con tu corazón; debí haberlo cuidado más, pero de lo que sí más mi piel carcome es no cumplir con todas esas promesas que nos hicimos; me hubiera gustado ir a un concierto contigo, si te soy totalmente sincero... verte a ti y a Gian existiendo y que no se quedasen como un vil pensamiento, que no puedo borrar tus fotos porque siempre vuelvo a buscarlas y verlas.</p>
+    </div>
+
+    <div class="bloque">
+      <p>Vuelvo a verte de reojo deseando que te voltees y, aunque sea una mueca tuya, volver a ver; que te escondas en mi cuello y roces con tu suave cabello y me mires con tus ojitos cafés, que me mires como una niña mira una flor bonita, que me abraces como si fuera a desaparecer, que me des tu amor y tú me dejes darte todo el mío.</p>
+    </div>
+
+    <div class="bloque">
+      <p>A veces camino por las calles donde te mandaba mensajitos, o miro el lugar de donde sale el sol todas las mañanas, el cual convenientemente es donde me dirijo para ir a tu casa... hubiera amado conocer aún más a tus hermanos, que me recordaran como los recuerdo a ellos... pero tú y yo ahora ya no somos los mismos.</p>
+    </div>
+
+    <div class="bloque">
+      <p>Hubiera querido tenerte en mis perfiles, tener una foto tuya en mi perfil, colocarte como mi mayor tesoro que tenía, pero el dolor que causaste en mí me nublaba todo lo bueno que tenías... ahora que mis ojos son distintos, quisiera que fueras mi novia, que todos lo supieran y ser esa parejita latosa de la que todos se quejan... o esos enamoraditos que nunca se despegan... pero, ¿cómo hacerle ver a aquel yo de ese entonces lo que yo veo ahora en el presente?... ¿cómo podría volver a ser quien habite tu corazón...?</p>
+    </div>
+
+    <div class="bloque">
+      <p>Sangré por ti, lloré y sufrí, pero me hace sufrir más que no estés conmigo, porque mato drogas con otras drogas para tan solo un minuto no hagas presencia en mis viles confines...</p>
+    </div>
+
+    <div class="bloque">
+      <p>Quédate, déjame ser aquel que juré te amaría.</p>
+      <p>Quédate y déjate ser aquella que siempre me amaría.</p>
+      <p>¿Podríamos hacer las cosas bien una sola vez? Y trascender en el tiempo como debimos.</p>
+    </div>
+
+    <div class="bloque">
+      <p>Después de todo, tú me conoces tanto como yo mismo, ¿para qué alejarte si eres el polo opuesto de mi mundo?</p>
+      <p>¿Cómo podría dejarte como si nada? No puedo, no quiero, no lo deseo, porque no hay nadie como tú, no hay nadie que tenga la potestad de decir todo lo que hemos vivido juntos con tanta seguridad como tú... porque si algo puedo asegurar es que eres un pensamiento que vivirá hasta el fin de mis días, porque eres más que recuerdo, porque somos y fuimos del otro en todas las formas...</p>
+    </div>
+
+    <div class="bloque final">
+      <p>No sé por qué escribo esto, pero aun así no me arrepiento, porque son tus manos las únicas que me pueden acariciar; lee esto, quémalo, mójalo, rómpelo, ignóralo, pero aun así quizás muy en el fondo hago esto es... es porque aún te amo.</p>
+    </div>
+
+    <div class="bloque final">
+      <p>Te amo y te amo Katherine Valeria De Leon Serpas.</p>
+      <p>Atentamente: Aaron Marcelo Escobar Azucena</p>
     </div>
 
   </div>
 
-  <div class="botones-finales">
-    <a href="poemas.html" target="_blank" class="boton">Poemas</a>
-    <a href="canciones.html" target="_blank" class="boton">Canciones</a>
+  <!-- DERECHA -->
+  <div class="lado">
+    <img src="lov.jpeg">
+    <img src="so.jpeg">
+    <img src="piojito.jpeg">
+    <img src="waos.jpeg">
+    <img src="metro.jpeg">
+     <img src="fam.jpeg">
   </div>
+
+</div>
+
+<div class="botones-finales">
+  <a href="poemas.html" class="boton">Poemas</a>
+  <a href="canciones.html" class="boton">Canciones</a>
+</div>
 
 </body>
 </html>
